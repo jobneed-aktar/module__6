@@ -59,11 +59,8 @@ font-family: "Abel", sans-serif;
     background: var(--secondary__color);
 }
 
-
-/*
-    Navigation bar styling
-*/
-
+/* main__section */
+/* Hero__section */
 .main__section {
     font-family: "Roboto", sans-serif;
 }
@@ -95,4 +92,20 @@ font-family: "Abel", sans-serif;
 
 .main__section .custom__email__btn:hover a {
     color: var(--primary__text_color);
+}
+
+/* department__section */
+.main__section .department__section h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.main__section .department__section p {
+    font-size: 18px;
+}
+
+.department__section .col-4:nth-child(2),
+.department__section .col-4:nth-child(3) {
+    border-left: 1px solid #d9d9d9;
+    padding-left: 50px;
 }
