@@ -111,11 +111,18 @@ font-family: "Abel", sans-serif;
 }
 
 /* Hero__section */
-.Hero__section h3 {
+.about__section h3 {
     font-size: 28px;
     font-weight: 500;
 }
 
 .about__section p {
     font-size: 18px;
+}
+
+.about__section .bustom__bar_ab {
+    width: 50px;
+    height: 10px;
+    background: var(--primary__color);
+    border-radius: 10px;
 }
