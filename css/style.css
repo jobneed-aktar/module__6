@@ -109,3 +109,13 @@ font-family: "Abel", sans-serif;
     border-left: 1px solid #d9d9d9;
     padding-left: 50px;
 }
+
+/* Hero__section */
+.Hero__section h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.Hero__section p {
+    font-size: 18px;
+}
