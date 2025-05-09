@@ -126,3 +126,27 @@ font-family: "Abel", sans-serif;
     background: var(--primary__color);
     border-radius: 10px;
 }
+
+/* service__section */
+
+.service__section .custom__heading h1 {
+    font-size: 24px;
+}
+.service__section p{
+    font-size: 16px;
+}
+
+.service__section .custom__heading {
+    border-radius: 5px;
+    background: #d9d9d9;
+    padding: 10px;
+}
+
+.service__section .custom__heading .btn__hover {
+    color: var(--primary__color);
+}
+
+.service__section .custom__heading .btn__hover:hover {
+    background: var(--primary__color);
+    color: var(--primary__text_color);
+}
